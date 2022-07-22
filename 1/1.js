@@ -50,13 +50,11 @@
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 
-// let firstName = 'Antoniv'
-// let middleName = 'Yura'
-// let lastName = 'Vasylovych'
-// let person = '';
-//
-// person = firstName+ ' '+ middleName+ ' '+ lastName;
-// console.log(person)
+let firstName = 'Antoniv'
+let middleName = 'Yura'
+let lastName = 'Vasylovych'
+person = `${firstName} ${middleName} ${lastName}`;
+console.log(person)
 
 //-------------------------------------
 
@@ -78,6 +76,6 @@
 // let firstName = prompt("Please enter your firstName: ")
 // let middleName = prompt("Please enter your middleName: ")
 // let lastName = prompt("Please enter your lastName: ")
-// let Year = prompt("Please enter your Year: ")
+// let Year = +prompt("Please enter your Year: ")
 //
-// console.log(firstName,' ', middleName, ' ' , lastName, ' ',Year)
+// console.log(`${firstName} ${middleName} ${lastName} ${Year}`)
