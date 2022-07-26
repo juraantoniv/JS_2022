@@ -79,3 +79,24 @@
 // let Year = +prompt("Please enter your Year: ")
 //
 // console.log(`${firstName} ${middleName} ${lastName} ${Year}`)
+
+let array =[
+    [10,23,30,40],
+    [50,60,50,11],
+    [50,60,50,10],
+    [50,60,50,55,65,22]
+]
+let empty_array = [];
+for(let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array[i].length; j++) {
+        empty_array.push(array[i][j])
+    }
+}
+let max;
+for (let i=0; i < empty_array.length; i++){
+    empty_array[i]=max;
+    if(empty_array[i]>max){
+        empty_array[i]=max
+    }
+}
+console.log(max)
