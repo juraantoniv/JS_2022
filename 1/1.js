@@ -1,4 +1,3 @@
-
 // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
 
@@ -80,23 +79,59 @@
 //
 // console.log(`${firstName} ${middleName} ${lastName} ${Year}`)
 
-let array =[
-    [10,23,30,40],
-    [50,60,50,11],
-    [50,60,50,10],
-    [50,60,50,55,65,22]
+
+// let array =[
+//     [10,23,30,40],
+//     [50,60,50,11],
+//     [50,60,50,10],
+//     [50,60,50,55,65,22]
+// ]
+// let empty_array = [];
+// for(let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array[i].length; j++) {
+//         empty_array.push(array[i][j])
+//     }
+// }
+// let max;
+// for (let i=0; i < empty_array.length; i++){
+//     empty_array[i]=max;
+//     if(empty_array[i]>max){
+//         empty_array[i]=max
+//     }
+// }
+
+// let users = [
+//
+//     {name:'Ivan',username:'Vanya',password:123456789},
+//     {name:'Ivan',username:'Vanya',password:123456789},
+//     {name:'Ivan',username:'Vanya',password:232326789},
+//     {name:'Ivan',username:'Vanya',password:100001000},
+//     {name:'Ivan',username:'Vanya',password:123456789},
+//     {name:'Ivan',username:'Vanya',password:125544789},
+//     {name:'Ivan',username:'Vanya',password:123456789},
+//     {name:'Ivan',username:'Kolya',password:888456789},
+//     {name:'Ivan',username:'Vasya',password:888888899},
+//     {name:'Ivan',username:'Vanya',password:987654321},
+//     {name:'Ivan',username:'Vanya',password:'PP123444'}
 ]
-let empty_array = [];
-for(let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array[i].length; j++) {
-        empty_array.push(array[i][j])
-    }
-}
-let max;
-for (let i=0; i < empty_array.length; i++){
-    empty_array[i]=max;
-    if(empty_array[i]>max){
-        empty_array[i]=max
-    }
-}
-console.log(max)
+// for (let i = 0 ; i<users.length; i++){
+//         for (let j=0; j<[i].length; j++) {
+//             console.log(users[j])
+
+//     }
+// }
+//
+// function add(x,y){
+//     return x+y
+// }
+//
+// console.log(add(10,5)+50)
+
+// for (const user of users) {
+//     document.write(`<ol>`)
+//     for (let i = 0; i < user.length; i++) {
+//         const userElement = user[i];
+//         document.write(`<li>${userElement}-${users[userElement]}</li>`)
+//     }
+//     document.write(`</ol>`)
+// }
