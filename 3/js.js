@@ -112,3 +112,39 @@
 // } else if (!x){
 //     console.log('not correct')
 // }
+
+
+// let number = +prompt('Please enter number from 0 to 60')
+//
+// switch (true){
+//     case number>=0 && number<15:
+//     console.log(`${number}`, " is fist quarter ")
+//         break;
+//     case number>=15 && number<30:
+//     console.log(`${number}`, " is second quarter ")
+//         break;
+//     case number>=30 && number<45:
+//         console.log(`${number}`," is third quarter ")
+//         break;
+//     case number>=45 && number<=60:
+//     console.log(`${number}`, " is third quarter ")
+//         break;
+//     default:
+//     console.log("Please enter correct number")
+// }
+
+// function arr(x,y,z){
+//     if(x>y && x>z){
+//         console.log(`${x} ${y} ${z}`,x)
+//         return x
+//     }
+//     else if (y>x && y>z){
+//         console.log(`${x} ${y} ${z}`,y)
+//         return y
+//     }
+//     else if (z>x && z>y) {
+//         console.log(`${x} ${y} ${z}`,z)
+//         return z
+//     }
+// }
+// arr(100,200,30)
