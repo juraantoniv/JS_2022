@@ -117,8 +117,8 @@
 // - Маємо будь яке число від -100 , 0 , +100 потрібно перевірити яким є число: позитивним, негативним або нулем
 // напишіть це тернарним оператором
 
-let n = +prompt('enter number from -100 to 100')
-
-const result =  n >= -100 && n < 0  ? 'negative' :
-     n === 0 ? 'zero' : 'positive';
-console.log(result)
+// let n = +prompt('enter number from -100 to 100')
+//
+// const result =  n >= -100 && n < 0  ? 'negative' :
+//      n === 0 ? 'zero' : 'positive';
+// console.log(result)
