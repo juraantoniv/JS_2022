@@ -119,6 +119,12 @@
 
 // let n = +prompt('enter number from -100 to 100')
 //
-// const result =  n >= -100 && n < 0  ? 'negative' :
+// let result =  n >= -100 && n < 0  ? 'negative' :
 //      n === 0 ? 'zero' : 'positive';
 // console.log(result)
+
+// - У нас є змінна test, якщо дорівнює true, виведіть 'Вірно', інакше виведіть 'Неправильно'.
+//     Перевірте роботу скрипта при test, що дорівнює true, false. Напишіть два варіанти скрипта - з коротким записом(тернаркою)
+//
+// let b = confirm()?'ok':'not ok';
+// console.log(b)
