@@ -65,3 +65,31 @@
 // console.log(arr2)
 
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+// let a = [ 'a', 'b', 'c']
+// let b=''
+// for (const string of a) {
+//     b=b+string
+// }
+// console.log(b)
+
+// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
+
+// let a = [ 'a', 'b', 'c']
+// let b=''
+// i=0
+// while (i<a.length) {
+//     b=b+a[i]
+//     i++
+// }
+// console.log(b)
+
+// - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
+//
+// let a = [ 'a', 'b', 'c']
+// let b=''
+//
+// for (let i = 0; i < a.length; i++) {
+//     const bElement = a[i];
+//     b=b+bElement
+// }
+// console.log(b)
