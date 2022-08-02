@@ -128,3 +128,17 @@
 //
 // let b = confirm()?'ok':'not ok';
 // console.log(b)
+
+
+let person1
+let people = [
+    ["Tom", 25, false],
+    ["Bill", 38, true],
+    ["Alice", 21, false]
+];
+for (const person of people) {
+    for (let i = 0; i < person.length; i++) {
+        console.log(person[i])
+    }
+
+}
