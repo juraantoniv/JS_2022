@@ -16,12 +16,12 @@
 //     </ul>
 
 
-    // let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-    //     document.write(`<ul>`)
-    //         for (const listOfItem of listOfItems) {
-    //         document.write(`<li>${listOfItem}</li>`)
-    //     }
-    //     document.write(`</ul>`)
+    let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+        document.write(`<ol>`)
+            for (const listOfItem of listOfItems) {
+            document.write(`<li>${listOfItem}</li>`)
+        }
+        document.write(`</ol>`)
 
 //--------------------------------------------------------------------------------
 // є масив
@@ -123,9 +123,9 @@
 //     },
 // ];
 //
-for (const product of products) {
-    document.write(`<div>`)
-        document.write(`<h3>${product.title} - ${product.price}</h3>`)
-        document.write(`<img src="${Image}">`)
-        document.write(`</div>`)
-}
+// for (const product of products) {
+//     document.write(`<div>`)
+//         document.write(`<h3>${product.title} - ${product.price}</h3>`)
+//         document.write(`<img src="${Image}">`)
+//         document.write(`</div>`)
+// }
