@@ -1,29 +1,37 @@
 .wrap{
     background: cornflowerblue;
-    width:100%;
-    display: flex;
+    width: 800px;
+    display:flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    margin: 20px;
+    border: 1px solid black;
+
 
 
 }
 
-.wrap1{
-    width:50%;
+.w{
+    padding: 10px;
+    height: 400px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+
+
 
 
 }
 
 .text{
-    background: aqua;
     font-size: 10px;
-    width: 20%;
-    margin-top: 15px;
-    text-align: justify-all;
-    color: blue;
+    width: 90%;
+    text-align:center;
+
 }
