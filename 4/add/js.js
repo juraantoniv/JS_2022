@@ -698,10 +698,30 @@ let arr = [
     }
 ];
 
+// for (const arrKey in arr) {
+//     let value=arr[arrKey]
+//     document.write(`<div class="wrap">`)
+// for (const arrKey in arr) {
+//     let value=arr[arrKey]
+//     document.write(`<div class="wrap1">`)
+//     document.write(`<div><h2>${value.title}</h2></div>`)
+//     document.write(`<div>${value.userId}- ${value.id}</div>`)
+//     document.write(`<div class="text">${value.body}</div>`)
+//     document.write(`<div class="wrap1">`)
+//
+//     document.write(`</div>`)
+//
+
+
+    document.write(`<div class="wrap"`)
 for (const arrKey in arr) {
     let value=arr[arrKey]
-    document.write(`<div><h2>${value.title}</h2></div>`)
+    document.write(`<div class="wrap1">`)
+    document.write(`<div><h4>${value.title}</h4></div>`)
     document.write(`<div>${value.userId}- ${value.id}</div>`)
     document.write(`<div class="text">${value.body}</div>`)
+    document.write(`<div>`)
+
+    document.write(`</div>"`)
 
 }

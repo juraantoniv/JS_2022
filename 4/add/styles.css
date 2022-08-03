@@ -1,8 +1,27 @@
+.wrap{
+    background: cornflowerblue;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
 
+
+}
+
+.wrap1{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+
+
+}
 
 .text{
-background: aqua;
-    font-size: 20px;
+    background: aqua;
+    font-size: 10px;
     width: 20%;
     margin-top: 15px;
     text-align: justify-all;
