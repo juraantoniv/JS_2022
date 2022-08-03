@@ -712,16 +712,39 @@ let arr = [
 //     document.write(`</div>`)
 //
 
+//
+// document.write(`<div class="wrap">`)
+// for (const arrKey in arr) {
+//     let value=arr[arrKey]
+//     document.write(`<div class="w">`)
+//     document.write(`<div><h4>${value.title}</h4></div>`)
+//     document.write(`<div>${value.userId}</div>`)
+//     document.write(`<div> ${value.id}</div>`)
+//     document.write(`<div class="text">${value.body}</div>`)
+//     document.write(`</div>`)
+//     // document.write(`</div>`)
+// }
+// document.write(`</div>`)
 
-    document.write(`<div class="wrap">`)
-for (const arrKey in arr) {
-    let value=arr[arrKey]
-    document.write(`<div class="w">`)
-    document.write(`<div><h4>${value.title}</h4></div>`)
-    document.write(`<div>${value.userId}</div>`)
-    document.write(`<div> ${value.id}</div>`)
-    document.write(`<div class="text">${value.body}</div>`)
-    document.write(`</div>`)
-    // document.write(`</div>`)
-}
-document.write(`</div>`)
+
+// Вивести кожен елемент масиву, сусід справа якого є парним
+// EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
+//
+// let a = [ 1, 2, 3, 5, 7, 9, 56, 8, 67,2,55,2,1,1,2 ]
+// for (let i = 0; i < a.length; i++) {
+//
+//     if(a[i]%2===0){
+//         console.log(a[i-1])
+//     }
+// }
+
+// Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
+
+// let a = [100,250,50,168,120,345,188]
+// let sum=0
+// for (let i = 0; i < a.length; i++) {
+//     const aElement = a[i];
+//     sum+=aElement
+//
+// }
+// console.log(Math.round(sum/a.length))
