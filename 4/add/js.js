@@ -1017,22 +1017,22 @@ let usersList = [
 
 
 
-//
-// document.write(`<div class="wrap">`)
-// debugger
-// for (let i = 0; i < usersList.length; i++) {
-//     const value = usersList[i];
-//     document.write(`<div class="w">`)
-//     document.write(`<div class="w1"><h3>ID:${value.id} | ${value.name} | ${value.username}</h3></div>`)
-//     document.write(`<div>${value.email}</div>`)
-//     document.write(`<div> ${value.phone}</div>`)
-//     document.write(`<div class="text">${value.address.street}</div>`)
-//     document.write(`<div class="text">${value.address.city}</div>`)
-//     document.write(`<div class="text">${value.address.suite}</div>`)
-//     document.write(`<div class="text">${value.address.zipcode}</div>`)
-//     document.write(`</div>`)
-//     // document.write(`</div>`)
-// }
-// document.write(`</div>`)
+
+document.write(`<div class="wrap">`)
+debugger
+for (let i = 0; i < usersList.length; i++) {
+    const value = usersList[i];
+    document.write(`<div class="w">`)
+    document.write(`<div class="w1"><h3>ID:${value.id} | ${value.name} | ${value.username}</h3></div>`)
+    document.write(`<div>${value.email}</div>`)
+    document.write(`<div> ${value.phone}</div>`)
+    document.write(`<div class="text">${value.address.street}</div>`)
+    document.write(`<div class="text">${value.address.city}</div>`)
+    document.write(`<div class="text">${value.address.suite}</div>`)
+    document.write(`<div class="text">${value.address.zipcode}</div>`)
+    document.write(`</div>`)
+    // document.write(`</div>`)
+}
+document.write(`</div>`)
 
 
