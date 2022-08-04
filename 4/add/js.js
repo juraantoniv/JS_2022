@@ -715,6 +715,44 @@
 // document.write(`</div>`)
 
 
+// <!DOCTYPE html>
+// <html lang="en">
+//     <head>
+//     <meta charset="UTF-8">
+//     <title>Title</title>
+// </head>
+// <body>
+//
+// <!--template 1.1-->
+// <div class="users-box">
+//     <div class="user-block">
+//         <h2>ID - NAME - USERNAME </h2>
+//         <h3>EMAIL - PHONE</h3>
+//         <div class="address-block">
+//             <p>City - ADDRESS.CITY</p>
+//             <p>Street - ADDRESS.STREET</p>
+//             <p>Suite - ADDRESS.SUITE</p>
+//             <p>Zip code - ADDRESS.ZIPCODE</p>
+//         </div>
+//
+//     </div>
+//
+//     <!--
+//     ...
+//     ...
+//     ...
+//     other users
+//     -->
+//
+//
+// </div>
+//
+//
+// <script>
+//     /*За допомогою циклу вивести всю інформацію про користувачів використовуючи шаблон Template 1.1
+//     * за допомоги стилів, побудувати сітку по 2 об'єкта в лінію
+//     *
+//     * */
 // Вивести кожен елемент масиву, сусід справа якого є парним
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 //
@@ -979,19 +1017,22 @@ let usersList = [
 
 
 
+//
+// document.write(`<div class="wrap">`)
+// debugger
+// for (let i = 0; i < usersList.length; i++) {
+//     const value = usersList[i];
+//     document.write(`<div class="w">`)
+//     document.write(`<div class="w1"><h3>ID:${value.id} | ${value.name} | ${value.username}</h3></div>`)
+//     document.write(`<div>${value.email}</div>`)
+//     document.write(`<div> ${value.phone}</div>`)
+//     document.write(`<div class="text">${value.address.street}</div>`)
+//     document.write(`<div class="text">${value.address.city}</div>`)
+//     document.write(`<div class="text">${value.address.suite}</div>`)
+//     document.write(`<div class="text">${value.address.zipcode}</div>`)
+//     document.write(`</div>`)
+//     // document.write(`</div>`)
+// }
+// document.write(`</div>`)
 
-document.write(`<div class="wrap">`)
-for (const arrKeys in usersList) {
-    let value=usersList[arrKeys]
-    document.write(`<div class="w">`)
-    document.write(`<div class="w1"><h3>ID:${value.id} | ${value.name} | ${value.username}</h3></div>`)
-    document.write(`<div>${value.email}</div>`)
-    document.write(`<div> ${value.phone}</div>`)
-    document.write(`<div class="text">${value.address.street}</div>`)
-    document.write(`<div class="text">${value.address.city}</div>`)
-    document.write(`<div class="text">${value.address.suite}</div>`)
-    document.write(`<div class="text">${value.address.zipcode}</div>`)
-    document.write(`</div>`)
-    // document.write(`</div>`)
-}
-document.write(`</div>`)
+
